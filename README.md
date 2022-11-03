@@ -19,4 +19,4 @@ Using event Listeners as well built in and custom Javascript functions it will
 take any text you tell it to and read it aloud. There is built in pausing, speed manipulation, stopping, and starting functions similar to how the DOM has
 document.getElementById() and document.querySelector() as built in functions.
 
-## URL:
+## URL: https://hro0806.github.io/text-to-speach/

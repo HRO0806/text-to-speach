@@ -9,12 +9,17 @@
     <script src="dist/main.js" defer></script> 
   </head>
   <body>
+    <header class="title sticky">
+      <h1>Henry's Text to Speech</h1>
+    </header>
     <textarea id="text"></textarea>
-    <label for="speed">speed</label>
-    <input type="number" name="speed" id="speed" min=".5" 
-    max="3" step=".5" value="1">
-    <button id="play-button">play</button>
-    <button id="pause-button">pause</button>
-    <button id="stop-button">stop</button>
+    <div class="controles">
+      <label for="speed" class="text-on-dark">speed</label>
+      <input type="number" name="speed" id="speed" min=".5" 
+      max="3" step=".5" value="1">
+      <button class="text-on-light controle-button" id="play-button">play</button>
+      <button class="text-on-light controle-button" id="pause-button">pause</button>
+      <button class="text-on-light controle-button" id="stop-button">stop</button>
+    </div>  
   </body>
 </html>
